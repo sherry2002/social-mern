@@ -1,0 +1,69 @@
+.messenger{
+    height: calc( 100vh - 70px);
+    display: flex;
+    width: 100%;
+}
+.messageLeft{
+    flex: 3.5 ;
+}
+.messageMiddle{
+    flex: 5.5 ;
+
+}
+.messageRight{
+    flex: 3 ;
+    padding-left: 10px;
+}
+.chatLeft,.chatMiddle,.chatRight{
+    padding: 10px;
+    height: 100%;
+}
+.chatMiddle{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.chatSearch{
+    width: 90%;
+    padding: 8px 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+}
+.chatbottom{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chatInput{
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+
+
+}
+.chatTop{
+    height: 100%;
+    overflow-y: scroll;
+}
+.sendChat{
+    width: 70px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(26, 122, 122);
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+.noConversation{
+    position: absolute;
+    top: 10%;
+    font-size: 30px;
+    color: gray;
+    text-align: center;
+    cursor: default;
+}

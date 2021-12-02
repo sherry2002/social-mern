@@ -1,0 +1,137 @@
+.settings{
+    display: flex;
+    flex-direction: column;
+    
+}
+.settingTop{
+    display: flex;
+    padding: 10px;
+    /* align-items: center; */
+    justify-content: space-around;
+   
+}
+.changes{
+    flex-wrap: nowrap;
+    flex: 1;
+    padding: 10px;
+}
+.changes h3{
+    padding: 7px;
+    text-align: center;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.changes input, textarea{
+    padding: 8px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin: 10px 2px;
+    width: 92%;
+}
+
+.changes button {
+    display: flex;
+    padding: 8px;
+    border: 1px solid grey;
+    background-color: rgb(61, 4, 102);
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.deleteuser{
+    margin-top:25px ;
+    padding: 10px;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.918);;
+    backdrop-filter: blur(5px);
+}
+.deleteuser h2{
+    text-align: center;
+    padding: 10px;
+    color: rgb(206, 7, 7);
+}
+.deleteuser button{
+    width: 50%;
+    margin: 20px 25%;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid rgb(66, 66, 66);
+    background-color: rgb(0, 0, 0);
+    color: rgb(241, 2, 2);
+    border-radius: 5px;
+}
+
+.deleteAcc{
+    width: 100%;
+    height: 100vh;
+   position: fixed;
+   top: 0;
+   z-index: 99;
+}
+.blur{
+    /* position: relative; */
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(180, 180, 180, 0.822);
+    opacity: 80%;
+}
+.account{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    position: fixed;
+    top: 25%;
+    left: 33%;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+.deleteicon{
+    width: 96% !important;
+    font-size: 40px !important;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.account p{
+    width: 100% !important;
+    font-size: 20px;
+}
+.account button{
+    cursor: pointer;
+    display: flex;
+    margin: 12px 35%;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    background-color: rgb(67, 8, 109);
+    color: white;
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 30%;
+    margin-right: 10px;
+
+}
+.radiobutton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.radiobutton input{
+    padding: 8px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    margin: 10px 2px;
+   width: 20px;
+}

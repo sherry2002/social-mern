@@ -1,0 +1,165 @@
+.rightbar {
+  flex: 3.5;
+}
+
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+
+.birthdayImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.birthdayText {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.rightbarAd {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.rightbarTitle{
+    margin-bottom: 20px;
+}
+
+.rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightbarTitle{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.rightbarInfo{
+  margin-bottom: 30px;
+}
+
+.rightbarInfoItem{
+  margin-bottom: 10px;
+}
+
+.rightbarInfoKey{
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.rightbarInfoValue{
+  font-weight: 300;
+}
+
+.rightbarFollowings{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rightbarFollowing{
+  display: flex;
+  flex-direction: column;
+  margin: 7px;
+  cursor: pointer;
+}
+
+.rightbarFollowingImg{
+  width:60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.rightbarFollowingName{
+  padding: 2px;
+  text-align: center;
+  color: rgb(97, 96, 96);
+}
+.rightbarFollowButton{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #9c0788;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.rightbarFollowButton:focus{
+  outline: none;
+}
+.rightbarFollowButton.followed{
+  background-color: rgb(218, 216, 216);
+  color: black;
+
+}
+.smallMessages{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    height: 350px;
+    width: 350px;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    background-color: rgb(255, 248, 248);
+    z-index: 99;
+
+}
+.smallchatbottom{
+  position: relative;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.smallsendChat{
+  width: 45px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(26, 122, 122);
+  color: white;
+  margin: 2px;
+  cursor: pointer;
+}
+.smallchatInput{
+  width: 80%;
+  height: 30px;
+  padding: 5px;
+
+
+}
+.messagesHome{
+  position: relative;
+  overflow-y: scroll;
+}
+.closeMessage{
+ padding: 3px;
+ display: flex;
+ justify-content: flex-end;
+  background-color: rgb(117, 9, 117);
+}
+
+.closeIcon{
+  color: white;
+  cursor: pointer;
+}
+.smallMessages.close{
+  display: none;
+}

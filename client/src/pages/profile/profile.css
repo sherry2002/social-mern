@@ -1,0 +1,99 @@
+.profile{
+    display: flex;
+  
+}
+
+.profileRight{
+    border-radius: 10px;
+    flex: 1;
+}
+.profileRightTop{
+    padding: 20px 40px;
+    background-color: rgb(247, 247, 247);
+  
+}
+
+.profile{
+    min-height: 320px;
+    position: relative;
+}
+
+.profileCoverImg{
+    cursor: pointer;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profileUserImg{
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 150px;
+    border: 3px solid white;
+}
+
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileInfoName{
+    font-size: 24px;
+}
+
+.profileInfoDesc{
+    font-weight: 300;
+}
+
+.profileRightBottom{
+    padding: 10px 25px;
+    display: flex;
+}
+.profileCover{
+    height: auto;
+    position: relative;
+}
+.coverEdit{
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    background-color: rgb(173, 181, 194);
+    padding: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+   max-width: 200px;
+}
+.profilePic{
+    width: auto;
+    height: auto;
+}
+
+.profileEdit{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: rgb(173, 181, 194);
+    padding: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    max-width: 200px;
+
+}
